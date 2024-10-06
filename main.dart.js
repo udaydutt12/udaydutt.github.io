@@ -108943,7 +108943,7 @@ aCi(a,b){var s=0,r=A.T(t.H),q=this,p,o,n
 var $async$EC=A.P(function(c,d){if(c===1)return A.Q(d,r)
 while(true)switch(s){case 0:o=t.N
 s=2
-return A.Y(A.aO1(A.fb("https://testdeploypb2.azurewebsites.net/api/login",0,null),B.c_.mA(A.I(["email",a,"password",b],o,o)),A.I(["Content-Type","application/json"],o,o)),$async$EC)
+return A.Y(A.aO1(A.fb("https://premiumfx-payroll.azurewebsites.net/api/login",0,null),B.c_.mA(A.I(["email",a,"password",b],o,o)),A.I(["Content-Type","application/json"],o,o)),$async$EC)
 case 2:n=d
 o=n.b
 A.zV("response.statusCode "+o)
@@ -108962,7 +108962,7 @@ axL(a,b,c,d){var s=0,r=A.T(t.H),q=this,p
 var $async$Dn=A.P(function(e,f){if(e===1)return A.Q(f,r)
 while(true)switch(s){case 0:p=t.N
 s=2
-return A.Y(A.aO1(A.fb("https://testdeploypb2.azurewebsites.net/api/branch/create",0,null),B.c_.mA(A.I(["company_id",a,"email",b,"phone",c,"address",d],p,p)),A.I(["Content-Type","application/json"],p,p)),$async$Dn)
+return A.Y(A.aO1(A.fb("https://premiumfx-payroll.azurewebsites.net/api/branch/create",0,null),B.c_.mA(A.I(["company_id",a,"email",b,"phone",c,"address",d],p,p)),A.I(["Content-Type","application/json"],p,p)),$async$Dn)
 case 2:if(f.b===201)q.ap()
 else throw A.c(A.e6("Failed to create branch"))
 return A.R(null,r)}})
@@ -108975,7 +108975,7 @@ axP(a,b,c,d){var s=0,r=A.T(t.H),q=this,p
 var $async$Do=A.P(function(e,f){if(e===1)return A.Q(f,r)
 while(true)switch(s){case 0:p=t.N
 s=2
-return A.Y(A.aO1(A.fb("https://testdeploypb2.azurewebsites.net/api/company/create",0,null),B.c_.mA(A.I(["company_name",a,"address",b,"email",c,"phone",d],p,p)),A.I(["Content-Type","application/json"],p,p)),$async$Do)
+return A.Y(A.aO1(A.fb("https://premiumfx-payroll.azurewebsites.net/api/company/create",0,null),B.c_.mA(A.I(["company_name",a,"address",b,"email",c,"phone",d],p,p)),A.I(["Content-Type","application/json"],p,p)),$async$Do)
 case 2:if(f.b===201)q.ap()
 else throw A.c(A.e6("Failed to create company"))
 return A.R(null,r)}})
@@ -108988,7 +108988,7 @@ axR(a,b,c,d,e,f){var s=0,r=A.T(t.H),q=this,p
 var $async$Dr=A.P(function(g,h){if(g===1)return A.Q(h,r)
 while(true)switch(s){case 0:p=t.N
 s=2
-return A.Y(A.aO1(A.fb("https://testdeploypb2.azurewebsites.net/api/employee/create",0,null),B.c_.mA(A.I(["company_id",a,"branch_id",b,"first_name",c,"last_name",d,"email",e,"hire_date",f],p,p)),A.I(["Content-Type","application/json"],p,p)),$async$Dr)
+return A.Y(A.aO1(A.fb("https://premiumfx-payroll.azurewebsites.net/api/employee/create",0,null),B.c_.mA(A.I(["company_id",a,"branch_id",b,"first_name",c,"last_name",d,"email",e,"hire_date",f],p,p)),A.I(["Content-Type","application/json"],p,p)),$async$Dr)
 case 2:if(h.b===201)q.ap()
 else throw A.c(A.e6("Failed to create employee"))
 return A.R(null,r)}})
